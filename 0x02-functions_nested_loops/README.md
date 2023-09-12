@@ -1,1 +1,3 @@
-this directory contains my task for 0x02-functions_nested_loops
+this directory contains my task for 0x02-functions_nested_loop
+
+0-main.cs
