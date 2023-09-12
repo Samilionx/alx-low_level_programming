@@ -9,7 +9,7 @@ int main(void)
 {
 	char bin;
 
-	for (bin = 0; bin <= 9; num++)
+	for (bin = 0; bin <= 9; bin++)
 	{
 		printf("%d", bin);
 	}
