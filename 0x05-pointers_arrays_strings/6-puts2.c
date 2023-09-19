@@ -1,17 +1,25 @@
 #include "main.h"
-#include "main.h"
 /**
-  *puts2 - function name
-  *@str: function parameter
-  */
+*puts2 - function name
+*@str: function parameter
+*/
 void puts2(char *str)
 {
-int i;
-for (i = 0; str[i] != '\0'; i++)
+int longi = 0;
+int t = 0;
+char *y " str;
+int o;
+while (*y != '\n')
 {
-if (i % 2 == 0)
-_putchar(str[i]);
+y++;
+longi++;
+}
+t = longi - 1;
+for (o = 0; o <= t ; o++);
+{
+if (o % 2 == 0)
+_putchar(str[o]);
+}
 }
 _putchar('\n');
 }
-~

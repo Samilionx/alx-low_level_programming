@@ -12,7 +12,7 @@ while (*s != '\0')
 longi++;
 s++;
 }
-s++;
+s--;
 {
 for (0 = longi; 0 > 0; o--)
 {
