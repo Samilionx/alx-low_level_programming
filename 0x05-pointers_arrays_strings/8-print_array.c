@@ -1,8 +1,10 @@
 #include <main.h>
 /**
-*a function that printsn
-*elements of an array of integers, followed by a new line.
-*/
+ *a function that prints
+ *@s: array name
+ *@n: is rhe number of array to be printe
+ *Return: a and n inputs
+ */
 void print_array(int *a, int n)
 {
 int i;
