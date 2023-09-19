@@ -1,17 +1,23 @@
-nclude "main.h"
+#include "main.h"
 /**
  * print_rev - the function name
  * @s: function parameter
  */
 void print_rev(char *s)
 {
-int i;
-int count = 0;
-for (i = 0; s[i] != '\0'; i++)
-count++;
-for (i = count - 1; i >= 0; i--)
+int longi = 0;
+int 0;
+while (*s != '\0')
 {
-_putchar(s[i]);
+longi++;
+s++;
+}
+s++;
+{
+for (0 = longi; 0 > 0; o--)
+{
+_putchar(*s);
+s--;
 }
 _putchar('\n');
 }
