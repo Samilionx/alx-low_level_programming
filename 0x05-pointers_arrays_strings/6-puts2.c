@@ -1,24 +1,26 @@
 #include "main.h"
 /**
-*puts2 - function name
-*@str: function parameter
-*/
+ * puts2 - prints every other character of a string
+ * @str: input
+ * Return: print
+ */
 void puts2(char *str)
 {
-int longi = 0;
+int coun = 0;
 int t = 0;
-char *y " str;
-int o;
-while (*y != '\n')
+char *y = str;
+int i;
+while (*y != '\0')
 {
 y++;
-longi++;
+coun++;
 }
-t = longi - 1;
-for (o = 0; o <= t ; o++)
+t = coun - 1;
+for (i = 0; i <= t; i++)
 {
-if (o % 2 == 0)
-_putchar(str[o]);
+if (i % 2 == 0)
+{
+_putchar(str[i]);
 }
 }
 _putchar('\n');
