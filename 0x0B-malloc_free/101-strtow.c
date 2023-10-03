@@ -25,7 +25,6 @@ int count_word(char *s)
 	}
 	return (w);
 }
-
 /**
  * strtow - splits a string into words
  * @str: string to split
@@ -35,20 +34,17 @@ int count_word(char *s)
  */
 char **strtow(char *str)
 {
-    char **matrix, *tmp;
+	char **matrix, *tmp;
 	int i, k = 0, len = 0, words, c = 0, start, end;
 
 	while (*(str + len))
-
 	len++;
 	words = count_word(str);
 	if (words == 0)
 	return (NULL);
-
 	matrix = (char **)malloc(sizeof(char *) * (words + 1));
 	if (matrix == NULL)
 	return (NULL);
-
 	for (i = 0; i <= len; i++)
 	{
 	if (str[i] == ' ' || str[i] == '\0')
